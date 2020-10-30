@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    >
+
+    <Button
+        android:id="@+id/showAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20sp"
+        android:background="@color/colorPrimary"
+        android:text="SHOW ALL" />
+
+
+    <Button
+        android:id="@+id/removeAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c72c2c"
+        android:layout_marginBottom="20sp"
+        android:text="DELETE ALL" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter date from - to" />
+
+    <EditText
+        android:id="@+id/dataNuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="2019-01-01" />
+
+    <EditText
+        android:id="@+id/dataIki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="2021-01-01" />
+
+    <Button
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#c72c2c"
+        android:text="CHART" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter response time" />
+
+    <EditText
+        android:id="@+id/resp_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="30" />
+
+    <Button
+        android:id="@+id/send_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#c72c2c"
+        android:text="CHANGE RESPONSE TIME" />
+</LinearLayout>
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/btnInsert"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:text="I n s e r t " />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/delID"-->
+<!--        android:layout_marginTop="100px"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="ID..." />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/delete"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:text="DELETE" />-->
+
+
+</RelativeLayout>
+

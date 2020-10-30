@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/lab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textColor="#000000"
+        android:textSize="15pt"
+        />
+
+    <TextView
+        android:id="@+id/dataTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textColor="#ff0000"
+        android:textSize="12pt"
+        android:lineSpacingExtra="10sp"
+        />
+
+    <ListView
+        android:id="@+id/uzrasaiListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
